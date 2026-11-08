@@ -55,6 +55,8 @@ Or call any stage directly (`/hack-ideate`, `/hack-judge`, ...).
 | `skills/hack-retro` | Post-event lessons; edits the skills themselves |
 | `playbook/principles.md` | Generic priors on what wins |
 | `playbook/lessons.md` | Your own evidence; overrides principles |
+| `playbook/profile.md` | Who is competing (solo, first-timer, strengths); its rules override stage defaults |
+| `examples/pennapps-xxvii/` | Worked example: real recon + state for PennApps XXVII (Feb 2027) |
 
 ## Per-project state (`.hackathon/`)
 

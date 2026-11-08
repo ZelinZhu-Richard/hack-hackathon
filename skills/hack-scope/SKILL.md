@@ -17,7 +17,7 @@ Write the 2-minute demo as a click-by-click, line-by-line script: what's on scre
 - **Real**: anything a judge might poke at or ask "is this live?" about, and the wow moment itself.
 - **Fake/seed**: login, settings, onboarding, pagination, admin, multi-tenant, payments, and any screen shown for under 3 seconds.
 - Default stack choice: whatever the team already knows best. A hackathon is not the time to learn a framework unless that's a sponsor requirement.
-- Sum the estimates and multiply by **1.5** (hackathon estimates are optimistic). If the total exceeds the build budget in `state.md`, cut now, not at 3am.
+- Sum the estimates and multiply by **1.5** (hackathon estimates are optimistic), or by **2** if `profile.md` says first-timer. Solo: the owner column is "me" or "subagent"; subtract the sleep block from the build budget. If the total exceeds the build budget in `state.md`, cut now, not at 3am.
 
 ## Step 3: Architecture sketch
 A ~10-line diagram (ASCII or mermaid) of the components and data flow. It doubles as the "how it works" slide later. Identify the **riskiest integration** (a new API, a model, hardware, or auth to a third party) and schedule a 30-minute spike on it **first**.

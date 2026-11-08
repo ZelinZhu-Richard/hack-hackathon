@@ -10,13 +10,16 @@ You run a time-boxed pipeline whose single objective is **maximizing the judges'
 Shared knowledge lives in `~/.claude/hack-hackathon/playbook/`:
 - `principles.md` — what wins (read once per session, before routing)
 - `lessons.md` — the user's own lessons from past hackathons (read it; these override generic principles when they conflict)
+- `profile.md` — who is competing (solo/team, experience, strengths). Its solo and first-timer rules override the defaults in every stage.
+
+Worked example of a filled-in recon + state: `~/.claude/hack-hackathon/examples/pennapps-xxvii/.hackathon/`.
 
 ## 1. Initialize (only if `.hackathon/state.md` does not exist)
 
 Ask for whatever is missing, in one message, nothing more:
 - Hackathon name + URL (rules / judging page)
 - Start and end time **with timezone**, and the submission deadline if different
-- Team: names + strengths (frontend, backend, ML, design, pitching)
+- Team: names + strengths (frontend, backend, ML, design, pitching). Skip this if `profile.md` already covers it (e.g. solo); just confirm.
 - Any theme, required tech, or prize tracks already known
 
 Then create `.hackathon/state.md`:
@@ -48,6 +51,8 @@ Compute absolute clock times from the duration and write them into `state.md`.
 | **feature freeze** | 75% | no new features after this, only bug fixes + demo |
 | pitch + backup video | 75–90% | rehearsed ≥3× under time limit |
 | submit | 90–100% | submitted with ≥30 min slack |
+
+**Solo:** schedule a sleep block (4–5h, between ~40% and ~55% elapsed, for events ≥ 24h) and write it into `state.md`; the build phases flex around it.
 
 For events < 12h, compress recon+ideate to ≤45 min total. Do not let ideation run over. A mediocre idea executed well beats a great idea that is half-built.
 

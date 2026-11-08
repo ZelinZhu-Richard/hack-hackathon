@@ -25,6 +25,9 @@ Rubric check: for each criterion in `recon.md`, point to the exact sentence in t
 3. **Q&A bank**: the questions from `judging.md` plus the standard ones ("Is this live or mocked?", "What's novel vs. just calling an API?", "How would this scale / make money?", "What would you do with another week?", "What was the hardest bug?"). Write ≤ 25-word answers.
 4. **Demo-failure plan**: who says what if the live demo breaks. Switch to the backup video without apologizing for more than one sentence.
 
+## Expo / table version
+If `recon.md` says judging happens at an expo or table before finalists: write a separate **60–90s table pitch** (hook → wow moment → hard part → one-liner) and treat it as the primary pitch, because finalists are chosen from it. Solo: you will deliver it many times without a partner, so make the demo one-click and resettable, and rehearse the 60s version most.
+
 ## Backup video
 Record at feature freeze, before the live demo: screen capture of the full demo path, 60–120s, with voiceover or captions. It's also the submission video in most cases (check the length limit in `recon.md`).
 

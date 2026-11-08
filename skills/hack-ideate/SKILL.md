@@ -32,6 +32,7 @@ Ask the user for their own ideas too, and include them unjudged in the pool.
 
 - Rubric fit uses the actual weights from recon.md and counts double.
 - Feasibility = confidence the wow moment works reliably *live* by freeze time.
+- Team fit comes from `profile.md` strengths. **Solo:** feasibility must be judged for one person, and ideas needing two parallel hard tracks (e.g. custom hardware *and* a complex frontend) score ≤ 2.
 - Be harsh. If everything scores 4+, you aren't discriminating.
 
 ## Step 4: Finalists → judge panel

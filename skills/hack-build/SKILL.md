@@ -19,7 +19,7 @@ Inputs: `plan.md`, `state.md`. Keep a running log in `.hackathon/build-log.md`.
 9. If the event bans pre-existing code (check `recon.md`), write the code fresh here. Don't paste from old projects.
 
 ## Parallelism
-With teammates: split by vertical slice or by clear interface (agree on the API/JSON shape first, mock it on both sides). With Claude subagents/worktrees: hand off isolated, well-specified pieces (a scraper, a UI component, a data-cleaning script), never the core wow logic you'll need to explain to judges.
+With teammates: split by vertical slice or by clear interface (agree on the API/JSON shape first, mock it on both sides). **Solo:** subagents/worktrees *are* the team, so plan which pieces go to them in `plan.md`, and review their output before merging onto the demo path. With Claude subagents/worktrees: hand off isolated, well-specified pieces (a scraper, a UI component, a data-cleaning script), never the core wow logic you'll need to explain to judges.
 
 ## Checkpoint mode (run when the user asks for status, or at each checkpoint time in plan.md)
 1. `date` → % elapsed vs. `state.md` budget.
