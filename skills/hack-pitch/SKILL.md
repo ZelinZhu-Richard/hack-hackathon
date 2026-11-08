@@ -13,7 +13,7 @@ Output: `.hackathon/pitch.md`.
 |---|---|---|
 | Hook | 0:00–0:20 | A specific person + their specific pain. A number or a short story. Not "In today's world…" |
 | Demo | 0:20–2:00 | Live. Narrate what the judge should notice. Land the wow moment by ~1:00. |
-| How it works | 2:00–2:30 | One architecture slide. Name the hard part explicitly ("the technically hard part was…"). |
+| How it works | 2:00–2:30 | One architecture slide (the `hack-hype` diagram; narrate its numbered demo path). Name the hard part explicitly ("the technically hard part was…"). |
 | Impact + next | 2:30–2:50 | Who benefits, how much, what's next. Mention the sponsor tech by name if targeting a track. |
 | Close | 2:50–3:00 | Name + one-line pitch, repeated. |
 

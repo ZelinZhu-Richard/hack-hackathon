@@ -14,7 +14,7 @@ Inputs: everything in `.hackathon/`. Output: `.hackathon/submission.md` (paste-r
 - **Title + tagline**: the one-line pitch from `idea.md`.
 - **Inspiration**: the specific person/pain (2–3 sentences, concrete).
 - **What it does**: the demo flow in plain words. Lead with the wow moment.
-- **How we built it**: architecture + stack, and **name the hard part**. Judges who read async score technical depth from this section.
+- **How we built it**: the `hack-hype` architecture PNG + stack, and **name the hard part**. Judges who read async score technical depth from this section.
 - **Challenges we ran into**: 1–2 real ones, technical and specific (pull from `build-log.md`).
 - **Accomplishments**: what works live, with numbers if any (latency, accuracy, # of users tested with).
 - **What we learned / What's next**: brief, credible.

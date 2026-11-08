@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1244" height="708" viewBox="0 0 1244 708" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b19"/><stop offset="1" stop-color="#121a3a"/></linearGradient>
+<radialGradient id="halo" cx="0.75" cy="0" r="0.9"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.22"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#94a3b8" fill-opacity="0.12"/></pattern>
+<filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="9"/></filter>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+<marker id="arrDemo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22d3ee"/></marker>
+<style>.flow{stroke-dasharray:7 9;animation:flow 1.1s linear infinite}@keyframes flow{to{stroke-dashoffset:-32}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.45}}</style>
+</defs>
+<rect width="1244" height="708" fill="url(#bg)"/><rect width="1244" height="708" fill="url(#halo)"/><rect width="1244" height="708" fill="url(#dots)"/>
+<text x="48" y="62" font-size="30" font-weight="800" fill="#f8fafc">Hangup — on-device scam-call defense</text>
+<text x="48" y="92" font-size="15" fill="#94a3b8">Streaming speech → local LLM reasoning → live warning. Zero bytes leave the phone.</text>
+<text x="1169.1" y="66" font-size="12" fill="#cbd5e1">next</text>
+<rect x="1139.12" y="55" width="24" height="14" rx="4" fill="none" stroke="#cbd5e1" stroke-dasharray="4 3"/>
+<text x="1094.2" y="66" font-size="12" fill="#cbd5e1">mock</text>
+<rect x="1064.2399999999998" y="55" width="24" height="14" rx="4" fill="none" stroke="#fbbf24"/>
+<text x="1019.4" y="66" font-size="12" fill="#cbd5e1">live</text>
+<rect x="989.3599999999998" y="55" width="24" height="14" rx="4" fill="none" stroke="#cbd5e1"/>
+<text x="910.9" y="66" font-size="12" fill="#cbd5e1">demo path</text>
+<path d="M880.8799999999998,62 h24" stroke="#22d3ee" stroke-width="2.5" class="flow"/>
+<rect x="48" y="132" width="254" height="536" rx="20" fill="#22d3ee" fill-opacity="0.045" stroke="#22d3ee" stroke-opacity="0.28"/>
+<text x="68" y="164" font-size="12" font-weight="800" letter-spacing="0.16em" fill="#22d3ee">CALL AUDIO</text>
+<text x="68" y="184" font-size="11.5" fill="#7c8aa5">never leaves the phone</text>
+<rect x="346" y="132" width="254" height="536" rx="20" fill="#a78bfa" fill-opacity="0.045" stroke="#a78bfa" stroke-opacity="0.28"/>
+<text x="366" y="164" font-size="12" font-weight="800" letter-spacing="0.16em" fill="#a78bfa">ON-DEVICE AI</text>
+<text x="366" y="184" font-size="11.5" fill="#7c8aa5">WebGPU · int4 · offline-capable</text>
+<rect x="644" y="132" width="254" height="536" rx="20" fill="#f472b6" fill-opacity="0.045" stroke="#f472b6" stroke-opacity="0.28"/>
+<text x="664" y="164" font-size="12" font-weight="800" letter-spacing="0.16em" fill="#f472b6">DECIDE &amp; WARN</text>
+<text x="664" y="184" font-size="11.5" fill="#7c8aa5">&lt; 3 s to alert</text>
+<rect x="942" y="132" width="254" height="536" rx="20" fill="#34d399" fill-opacity="0.045" stroke="#34d399" stroke-opacity="0.28"/>
+<text x="962" y="164" font-size="12" font-weight="800" letter-spacing="0.16em" fill="#34d399">NEXT</text>
+<text x="962" y="184" font-size="11.5" fill="#7c8aa5">after the weekend</text>
+<path d="M473.0,454.0 C473.0,454.0 473.0,404.0 473.0,404.0" fill="none" stroke="#64748b" stroke-opacity="0.75" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M771.0,404.0 C771.0,404.0 771.0,454.0 771.0,454.0" fill="none" stroke="#64748b" stroke-opacity="0.75" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M580.0,370.0 C622.0,370.0 622.0,606.0 664.0,606.0" fill="none" stroke="#64748b" stroke-opacity="0.75" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M878.0,370.0 C920.0,370.0 920.0,488.0 962.0,488.0" fill="none" stroke="#64748b" stroke-opacity="0.75" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M366.0,616.0 H354.0 V360.0 H366.0" fill="none" stroke="#64748b" stroke-opacity="0.75" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M175.0,404.0 C175.0,404.0 175.0,454.0 175.0,454.0" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="7"/>
+<path d="M175.0,404.0 C175.0,404.0 175.0,454.0 175.0,454.0" fill="none" stroke="#22d3ee" stroke-width="2.5" class="flow" marker-end="url(#arrDemo)"/>
+<path d="M282.0,488.0 C324.0,488.0 324.0,252.0 366.0,252.0" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="7"/>
+<path d="M282.0,488.0 C324.0,488.0 324.0,252.0 366.0,252.0" fill="none" stroke="#22d3ee" stroke-width="2.5" class="flow" marker-end="url(#arrDemo)"/>
+<path d="M473.0,286.0 C473.0,286.0 473.0,336.0 473.0,336.0" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="7"/>
+<path d="M473.0,286.0 C473.0,286.0 473.0,336.0 473.0,336.0" fill="none" stroke="#22d3ee" stroke-width="2.5" class="flow" marker-end="url(#arrDemo)"/>
+<path d="M580.0,370.0 C622.0,370.0 622.0,370.0 664.0,370.0" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="7"/>
+<path d="M580.0,370.0 C622.0,370.0 622.0,370.0 664.0,370.0" fill="none" stroke="#22d3ee" stroke-width="2.5" class="flow" marker-end="url(#arrDemo)"/>
+<path d="M771.0,336.0 C771.0,336.0 771.0,286.0 771.0,286.0" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="7"/>
+<path d="M771.0,336.0 C771.0,336.0 771.0,286.0 771.0,286.0" fill="none" stroke="#22d3ee" stroke-width="2.5" class="flow" marker-end="url(#arrDemo)"/>
+<g><rect x="68.0" y="336.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#22d3ee" stroke-width="1.4"/>
+<rect x="68.0" y="350.0" width="3.5" height="40" rx="1.75" fill="#22d3ee"/>
+<text x="86.0" y="366.0" font-size="15" font-weight="700" fill="#f1f5f9">Call audio tap</text>
+<text x="86.0" y="386.0" font-size="12" fill="#94a3b8">16 kHz PCM · 1 s chunks</text>
+</g>
+<g><rect x="68.0" y="454.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#22d3ee" stroke-width="1.4"/>
+<rect x="68.0" y="468.0" width="3.5" height="40" rx="1.75" fill="#22d3ee"/>
+<text x="86.0" y="484.0" font-size="15" font-weight="700" fill="#f1f5f9">Voice activity</text>
+<text x="86.0" y="504.0" font-size="12" fill="#94a3b8">Silero VAD · 2 MB</text>
+</g>
+<g><rect x="366.0" y="218.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#a78bfa" stroke-width="1.4"/>
+<rect x="366.0" y="232.0" width="3.5" height="40" rx="1.75" fill="#a78bfa"/>
+<text x="384.0" y="248.0" font-size="15" font-weight="700" fill="#f1f5f9">Streaming ASR</text>
+<text x="384.0" y="268.0" font-size="12" fill="#94a3b8">Whisper-tiny · int8</text>
+</g>
+<rect x="362.0" y="332.0" width="222" height="76" rx="18" fill="#a78bfa" opacity="0.55" filter="url(#glow)" class="pulse"/>
+<g><rect x="366.0" y="336.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#a78bfa" stroke-width="2.2"/>
+<rect x="366.0" y="350.0" width="3.5" height="40" rx="1.75" fill="#a78bfa"/>
+<text x="384.0" y="366.0" font-size="15" font-weight="700" fill="#f1f5f9">Scam reasoner</text>
+<text x="384.0" y="386.0" font-size="12" fill="#94a3b8">Qwen 1.5B · 4-bit · local</text>
+<rect x="531.6" y="327.0" width="38.4" height="18" rx="9" fill="#a78bfa" stroke="#a78bfa" stroke-width="1"/><text x="550.8" y="339.5" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="0.08em" fill="#0b1020">CORE</text>
+</g>
+<g><rect x="366.0" y="454.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#a78bfa" stroke-width="1.4"/>
+<rect x="366.0" y="468.0" width="3.5" height="40" rx="1.75" fill="#a78bfa"/>
+<text x="384.0" y="484.0" font-size="15" font-weight="700" fill="#f1f5f9">Scam script index</text>
+<text x="384.0" y="504.0" font-size="12" fill="#94a3b8">1.2k scripts · local vectors</text>
+</g>
+<g><rect x="366.0" y="572.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#a78bfa" stroke-width="1.4"/>
+<rect x="366.0" y="586.0" width="3.5" height="40" rx="1.75" fill="#a78bfa"/>
+<text x="384.0" y="602.0" font-size="15" font-weight="700" fill="#f1f5f9">Eval harness</text>
+<text x="384.0" y="622.0" font-size="12" fill="#94a3b8">200 labeled calls · F1</text>
+</g>
+<g><rect x="664.0" y="218.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#f472b6" stroke-width="1.4"/>
+<rect x="664.0" y="232.0" width="3.5" height="40" rx="1.75" fill="#f472b6"/>
+<text x="682.0" y="248.0" font-size="15" font-weight="700" fill="#f1f5f9">Live warning</text>
+<text x="682.0" y="268.0" font-size="12" fill="#94a3b8">red banner + haptic</text>
+</g>
+<g><rect x="664.0" y="336.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#f472b6" stroke-width="1.4"/>
+<rect x="664.0" y="350.0" width="3.5" height="40" rx="1.75" fill="#f472b6"/>
+<text x="682.0" y="366.0" font-size="15" font-weight="700" fill="#f1f5f9">Risk scorer</text>
+<text x="682.0" y="386.0" font-size="12" fill="#94a3b8">rolling 30 s window</text>
+</g>
+<g><rect x="664.0" y="454.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#fbbf24" stroke-width="1.4"/>
+<rect x="664.0" y="468.0" width="3.5" height="40" rx="1.75" fill="#f472b6"/>
+<text x="682.0" y="484.0" font-size="15" font-weight="700" fill="#f1f5f9">Family alert</text>
+<text x="682.0" y="504.0" font-size="12" fill="#94a3b8">SMS to trusted contact</text>
+<rect x="829.6" y="445.0" width="38.4" height="18" rx="9" fill="#0b1226" stroke="#fbbf24" stroke-width="1"/><text x="848.8" y="457.5" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="0.08em" fill="#fbbf24">MOCK</text>
+</g>
+<g><rect x="664.0" y="572.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#f472b6" stroke-width="1.4"/>
+<rect x="664.0" y="586.0" width="3.5" height="40" rx="1.75" fill="#f472b6"/>
+<text x="682.0" y="602.0" font-size="15" font-weight="700" fill="#f1f5f9">Trace panel</text>
+<text x="682.0" y="622.0" font-size="12" fill="#94a3b8">per-stage ms · 0 bytes out</text>
+</g>
+<g opacity="0.55"><rect x="962.0" y="336.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#34d399" stroke-width="1.4" stroke-dasharray="6 4"/>
+<rect x="962.0" y="350.0" width="3.5" height="40" rx="1.75" fill="#34d399"/>
+<text x="980.0" y="366.0" font-size="15" font-weight="700" fill="#f1f5f9">LoRA fine-tune</text>
+<text x="980.0" y="386.0" font-size="12" fill="#94a3b8">on eval failures</text>
+<rect x="1127.6" y="327.0" width="38.4" height="18" rx="9" fill="#0b1226" stroke="#cbd5e1" stroke-width="1"/><text x="1146.8" y="339.5" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="0.08em" fill="#cbd5e1">NEXT</text>
+</g>
+<g opacity="0.55"><rect x="962.0" y="454.0" width="214" height="68" rx="14" fill="#0b1226" fill-opacity="0.94" stroke="#34d399" stroke-width="1.4" stroke-dasharray="6 4"/>
+<rect x="962.0" y="468.0" width="3.5" height="40" rx="1.75" fill="#34d399"/>
+<text x="980.0" y="484.0" font-size="15" font-weight="700" fill="#f1f5f9">Bank hold API</text>
+<text x="980.0" y="504.0" font-size="12" fill="#94a3b8">pause the transfer</text>
+<rect x="1127.6" y="445.0" width="38.4" height="18" rx="9" fill="#0b1226" stroke="#cbd5e1" stroke-width="1"/><text x="1146.8" y="457.5" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="0.08em" fill="#cbd5e1">NEXT</text>
+</g>
+<rect x="426.0" y="419.0" width="94.1" height="20" rx="10" fill="#0b1020" fill-opacity="0.92" stroke="#334155"/>
+<text x="473.0" y="433.0" text-anchor="middle" font-size="11" fill="#cbd5e1">top-3 matches</text>
+<rect x="733.2" y="419.0" width="75.6" height="20" rx="10" fill="#0b1020" fill-opacity="0.92" stroke="#334155"/>
+<text x="771.0" y="433.0" text-anchor="middle" font-size="11" fill="#cbd5e1">risk &gt; 0.9</text>
+<rect x="593.4" y="478.0" width="57.1" height="20" rx="10" fill="#0b1020" fill-opacity="0.92" stroke="#334155"/>
+<text x="622.0" y="492.0" text-anchor="middle" font-size="11" fill="#cbd5e1">timings</text>
+<rect x="894.5" y="419.0" width="51.0" height="20" rx="10" fill="#0b1020" fill-opacity="0.92" stroke="#334155"/>
+<text x="920.0" y="433.0" text-anchor="middle" font-size="11" fill="#cbd5e1">future</text>
+<g transform="rotate(-90 354.0 488.0)"><rect x="294.6" y="478.0" width="118.7" height="20" rx="10" fill="#0b1020" stroke="#334155"/><text x="354.0" y="492.0" text-anchor="middle" font-size="11" fill="#cbd5e1">graded: 200 calls</text></g>
+<rect x="165.6" y="419.0" width="44.8" height="20" rx="10" fill="#0b1020" fill-opacity="0.92" stroke="#334155"/>
+<text x="188.0" y="433.0" text-anchor="middle" font-size="11" fill="#cbd5e1">audio</text>
+<circle cx="152.6" cy="429.0" r="11" fill="#22d3ee"/><text x="152.6" y="433.0" text-anchor="middle" font-size="11" font-weight="800" fill="#0b1020">1</text>
+<rect x="311.5" y="360.0" width="51.0" height="20" rx="10" fill="#0b1020" fill-opacity="0.92" stroke="#334155"/>
+<text x="337.0" y="374.0" text-anchor="middle" font-size="11" fill="#cbd5e1">speech</text>
+<circle cx="298.5" cy="370.0" r="11" fill="#22d3ee"/><text x="298.5" y="374.0" text-anchor="middle" font-size="11" font-weight="800" fill="#0b1020">2</text>
+<rect x="448.2" y="301.0" width="75.6" height="20" rx="10" fill="#0b1020" fill-opacity="0.92" stroke="#334155"/>
+<text x="486.0" y="315.0" text-anchor="middle" font-size="11" fill="#cbd5e1">transcript</text>
+<circle cx="435.2" cy="311.0" r="11" fill="#22d3ee"/><text x="435.2" y="315.0" text-anchor="middle" font-size="11" font-weight="800" fill="#0b1020">3</text>
+<rect x="588.0" y="360.0" width="94.1" height="20" rx="10" fill="#0b1020" fill-opacity="0.92" stroke="#334155"/>
+<text x="635.0" y="374.0" text-anchor="middle" font-size="11" fill="#cbd5e1">risk + reason</text>
+<circle cx="575.0" cy="370.0" r="11" fill="#22d3ee"/><text x="575.0" y="374.0" text-anchor="middle" font-size="11" font-weight="800" fill="#0b1020">4</text>
+<rect x="761.6" y="301.0" width="44.8" height="20" rx="10" fill="#0b1020" fill-opacity="0.92" stroke="#334155"/>
+<text x="784.0" y="315.0" text-anchor="middle" font-size="11" fill="#cbd5e1">alert</text>
+<circle cx="748.6" cy="311.0" r="11" fill="#22d3ee"/><text x="748.6" y="315.0" text-anchor="middle" font-size="11" font-weight="800" fill="#0b1020">5</text>
+</svg>

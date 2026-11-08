@@ -67,9 +67,9 @@ Every time this skill runs:
 |---|---|
 | no `recon.md` | `hack-recon` |
 | no `idea.md` | `hack-ideate` (it calls `hack-judge` to pick) |
-| no `plan.md` | `hack-scope` |
+| no `plan.md` | `hack-scope`, then `hack-hype` (buzz audit → adds real buzz items to the plan) |
 | building | `hack-build` (checkpoint mode) |
-| past feature freeze | `hack-pitch` |
+| past feature freeze | `hack-hype` (honesty pass + final diagram), then `hack-pitch` |
 | within 3h of deadline, or a draft not submitted | `hack-submit` |
 | event over | `hack-retro` |
 

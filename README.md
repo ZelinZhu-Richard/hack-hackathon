@@ -10,7 +10,8 @@ flowchart LR
     B --> J{{hack-judge<br/>simulated panel}}
     J --> B
     B --> C[hack-scope<br/>demo script first, cut list]
-    C --> D[hack-build<br/>skeleton → wow → freeze]
+    C --> H[hack-hype<br/>real buzz + diagram]
+    H --> D[hack-build<br/>skeleton → wow → freeze]
     D <--> J
     D --> E[hack-pitch<br/>script, Q&A, rehearse]
     E <--> J
@@ -49,14 +50,21 @@ Or call any stage directly (`/hack-ideate`, `/hack-judge`, ...).
 | `skills/hack-ideate` | Generate → kill → score → pick, against the rubric |
 | `skills/hack-judge` | Independent simulated judges (subagents) to red-team ideas, builds, pitches |
 | `skills/hack-scope` | Demo-script-first plan, real-vs-fake components, checkpoints, cut list |
+| `skills/hack-hype` | Buzz audit (real trendy tech, scored by judge signal per hour) + animated architecture diagram |
 | `skills/hack-build` | Build rules, checkpoint reviews, feature freeze |
 | `skills/hack-pitch` | Timed script mapped to rubric, Q&A bank, rehearsal loop |
 | `skills/hack-submit` | Devpost writeup, README, pre-submit checklist |
 | `skills/hack-retro` | Post-event lessons; edits the skills themselves |
+| `scripts/archgraph.py` | JSON spec → animated dark-theme architecture SVG (stdlib only; refuses unmeasured metrics) |
+| `scripts/svg2png.js` | SVG → 2× PNG via Playwright |
 | `playbook/principles.md` | Generic priors on what wins |
 | `playbook/lessons.md` | Your own evidence; overrides principles |
 | `playbook/profile.md` | Who is competing (solo, first-timer, strengths); its rules override stage defaults |
 | `examples/pennapps-xxvii/` | Worked example: real recon + state for PennApps XXVII (Feb 2027) |
+
+## Example diagram (hack-hype trial on a PennApps idea)
+
+![Hangup architecture](examples/pennapps-xxvii/.hackathon/architecture.png)
 
 ## Per-project state (`.hackathon/`)
 

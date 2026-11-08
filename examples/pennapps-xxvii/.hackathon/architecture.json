@@ -1,0 +1,161 @@
+{
+  "title": "Hangup — on-device scam-call defense",
+  "subtitle": "Streaming speech → local LLM reasoning → live warning. Zero bytes leave the phone.",
+  "lanes": [
+    {
+      "id": "device",
+      "label": "Call audio",
+      "sub": "never leaves the phone"
+    },
+    {
+      "id": "ai",
+      "label": "On-device AI",
+      "sub": "WebGPU · int4 · offline-capable"
+    },
+    {
+      "id": "act",
+      "label": "Decide & warn",
+      "sub": "< 3 s to alert"
+    },
+    {
+      "id": "next",
+      "label": "Next",
+      "sub": "after the weekend"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "mic",
+      "lane": "device",
+      "label": "Call audio tap",
+      "sub": "16 kHz PCM · 1 s chunks"
+    },
+    {
+      "id": "vad",
+      "lane": "device",
+      "label": "Voice activity",
+      "sub": "Silero VAD · 2 MB"
+    },
+    {
+      "id": "asr",
+      "lane": "ai",
+      "label": "Streaming ASR",
+      "sub": "Whisper-tiny · int8"
+    },
+    {
+      "id": "llm",
+      "lane": "ai",
+      "label": "Scam reasoner",
+      "sub": "Qwen 1.5B · 4-bit · local",
+      "hot": true
+    },
+    {
+      "id": "vec",
+      "lane": "ai",
+      "label": "Scam script index",
+      "sub": "1.2k scripts · local vectors"
+    },
+    {
+      "id": "eval",
+      "lane": "ai",
+      "label": "Eval harness",
+      "sub": "200 labeled calls · F1"
+    },
+    {
+      "id": "ui",
+      "lane": "act",
+      "label": "Live warning",
+      "sub": "red banner + haptic"
+    },
+    {
+      "id": "score",
+      "lane": "act",
+      "label": "Risk scorer",
+      "sub": "rolling 30 s window"
+    },
+    {
+      "id": "family",
+      "lane": "act",
+      "label": "Family alert",
+      "sub": "SMS to trusted contact",
+      "status": "mock"
+    },
+    {
+      "id": "trace",
+      "lane": "act",
+      "label": "Trace panel",
+      "sub": "per-stage ms · 0 bytes out"
+    },
+    {
+      "id": "ft",
+      "lane": "next",
+      "label": "LoRA fine-tune",
+      "sub": "on eval failures",
+      "status": "roadmap"
+    },
+    {
+      "id": "bank",
+      "lane": "next",
+      "label": "Bank hold API",
+      "sub": "pause the transfer",
+      "status": "roadmap"
+    }
+  ],
+  "edges": [
+    {
+      "from": "mic",
+      "to": "vad",
+      "label": "audio",
+      "step": 1
+    },
+    {
+      "from": "vad",
+      "to": "asr",
+      "label": "speech",
+      "step": 2
+    },
+    {
+      "from": "asr",
+      "to": "llm",
+      "label": "transcript",
+      "step": 3
+    },
+    {
+      "from": "vec",
+      "to": "llm",
+      "label": "top-3 matches"
+    },
+    {
+      "from": "llm",
+      "to": "score",
+      "label": "risk + reason",
+      "step": 4
+    },
+    {
+      "from": "score",
+      "to": "ui",
+      "label": "alert",
+      "step": 5
+    },
+    {
+      "from": "score",
+      "to": "family",
+      "label": "risk > 0.9"
+    },
+    {
+      "from": "llm",
+      "to": "trace",
+      "label": "timings"
+    },
+    {
+      "from": "score",
+      "to": "bank",
+      "label": "future"
+    },
+    {
+      "from": "eval",
+      "to": "llm",
+      "label": "graded: 200 calls"
+    }
+  ]
+}
